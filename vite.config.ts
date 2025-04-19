@@ -7,5 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: '/pregnancy-calendar/', // Replace with your repository name
+  base: '/', // Replace with your repository name
 });

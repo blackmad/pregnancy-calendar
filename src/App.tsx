@@ -7,6 +7,7 @@ import { Background } from './components/Background';
 import { CalendarHeader } from './components/CalendarHeader';
 import { CalendarControls } from './components/CalendarControls';
 import { CalendarMonth } from './components/CalendarMonth';
+import { Footer } from './components/Footer';
 
 // Storage keys
 const STORAGE_KEYS = {
@@ -127,6 +128,7 @@ function App() {
             ))}
           </div>
         )}
+        <Footer />
       </div>
     </Background>
   );
